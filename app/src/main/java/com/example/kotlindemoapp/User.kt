@@ -6,8 +6,8 @@ import androidx.room.PrimaryKey
 @Entity(tableName = "user_table")
 data class User(
     @PrimaryKey(autoGenerate = true)
-    var id:Int,
-    var firstName:String,
-    var lastName:String,
-    var phone:String
-    )
+        val id:Int,
+        val firstName:String,
+        val lastName:String,
+        val phone:String
+    ){}
