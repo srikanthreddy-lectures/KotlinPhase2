@@ -1,5 +1,6 @@
 package com.example.kotlindemoapp
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
@@ -22,6 +23,8 @@ class RegisterActivity : AppCompatActivity() {
 
         val result =findViewById<TextView>(R.id.result)
 
+        val name = Intent().getStringExtra("name")
+        result.text = name.toString()
 
         val config = Room.databaseBuilder(this,UserDatabase::class.java,"sonet.db")
         val db = config.build()

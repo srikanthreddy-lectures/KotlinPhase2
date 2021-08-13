@@ -3,7 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Windows/Development/Android/KotlinDemoApp/app/src/main/res/layout/activity_recycler_view_avtivity.xml" value="0.33" />
         <entry key="..\:/Windows/Development/Android/KotlinDemoApp/app/src/main/res/layout/activity_register.xml" value="0.21197916666666666" />
+        <entry key="..\:/Windows/Development/Android/KotlinDemoApp/app/src/main/res/layout/item_list.xml" value="0.35260416666666666" />
       </map>
     </option>
   </component>
