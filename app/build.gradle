@@ -66,5 +66,12 @@ dependencies {
     // lifecycleScope:
     implementation 'androidx.lifecycle:lifecycle-runtime-ktx:2.4.0-alpha02'
 
+    def version = "2.2.0"
+
+    // ViewModel
+    implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:$version"
+    // LiveData
+    implementation "androidx.lifecycle:lifecycle-livedata-ktx:$version"
+
 
 }
