@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.KotlinDemoApp">
         <activity
-            android:name=".FragmantActivity"
+            android:name=".FirebaseDemoActivity"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -19,11 +19,14 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".RecyclerViewAvtivity"
+            android:name=".FragmantActivity"
             android:exported="true">
 
         </activity>
-        <activity android:name=".RegisterActivity"></activity>
+        <activity
+            android:name=".RecyclerViewAvtivity"
+            android:exported="true"></activity>
+        <activity android:name=".RegisterActivity" />
         <activity android:name=".BranchActivity" />
         <activity android:name=".MainActivity" />
     </application>

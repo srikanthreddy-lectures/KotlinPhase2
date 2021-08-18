@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "444751749400",
+    "project_id": "sonetdemo-1781d",
+    "storage_bucket": "sonetdemo-1781d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:444751749400:android:f0f22fe638a451e9247e6d",
+        "android_client_info": {
+          "package_name": "com.example.kotlindemoapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "444751749400-1imppv8p1kk3cn430bj3jc2cl45j2lnk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCq_NRwGUMbzpy1pzf5XDQfV46HS-PO2k0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "444751749400-1imppv8p1kk3cn430bj3jc2cl45j2lnk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
